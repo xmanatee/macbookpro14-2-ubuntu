@@ -1,0 +1,62 @@
+{
+  "kernel": "7.0.0-38-generic",
+  "kernel_package": "7.0.0-38.38",
+  "artifacts": {
+    "touchbar": {
+      "url": "https://codeload.github.com/AJ-dev-i60/t1-touchbar/tar.gz/20d65c7b0fe6d05ea9734f869b27384a62de5109",
+      "filename": "touchbar.tar.gz",
+      "sha256": "b0bdb61ab72582c22bdd79fd89ee57ee4aed7409d61e9fbf53d6c1b5494d8289"
+    },
+    "audio": {
+      "url": "https://codeload.github.com/davidjo/snd_hda_macbookpro/tar.gz/89b22ff90b86468b186706861dd18663562defa7",
+      "filename": "audio.tar.gz",
+      "sha256": "da831e4616f69af02b09d0d938f9ea1bc26f2a0dd16010c6004cc512b0619110"
+    },
+    "nvram": {
+      "url": "https://raw.githubusercontent.com/nohzafk/omarchy-macbookpro-t1/8e479f0af82d16f47de811bef6e1a5cfd7d8c5f8/firmware/brcmfmac43602-pcie.txt",
+      "filename": "brcmfmac43602-pcie.txt",
+      "sha256": "b109f3e6663b0e888c2559e36f7e0109f2a3a6b9765786d11f849f16d4b32d06"
+    },
+    "ubuntu": {
+      "url": "https://cloud-images.ubuntu.com/releases/resolute/release-20260927/ubuntu-26.04-server-cloudimg-amd64.img",
+      "filename": "ubuntu.qcow2",
+      "sha256": "8800651811af9a85465ad1d552add729947bb16488dddb4a9b5305a3d97332b2"
+    },
+    "checksums": {
+      "url": "https://cloud-images.ubuntu.com/releases/resolute/release-20260927/SHA256SUMS",
+      "filename": "SHA256SUMS",
+      "sha256": "1a644c553529b2a00771f425928592ce3fc2d9b8b636d8ba53811b85b019e7a5"
+    },
+    "signature": {
+      "url": "https://cloud-images.ubuntu.com/releases/resolute/release-20260927/SHA256SUMS.gpg",
+      "filename": "SHA256SUMS.gpg",
+      "sha256": "8198e369b296ebdb0df24197d82039c257773662bd624e153f693aeca1e6a96a"
+    },
+    "docker_key": {
+      "url": "https://download.docker.com/linux/ubuntu/gpg",
+      "filename": "docker.asc",
+      "sha256": "1500c1f56fa9e26b9b8f42452a553675796ade0807cdce11975eb98170b3a570"
+    },
+    "tailscale_key": {
+      "url": "https://pkgs.tailscale.com/stable/ubuntu/resolute.noarmor.gpg",
+      "filename": "tailscale.gpg",
+      "sha256": "3e03dacf222698c60b8e2f990b809ca1b3e104de127767864284e6c228f1fb39"
+    },
+    "display": {
+      "url": "https://codeload.github.com/moerdowo/appletbdrm-t1/tar.gz/186c32ee8828eb7d65fcd52c0ef49e737185461b",
+      "sha256": "1b649f4e2dd78f2c673a11cf4062706e872c9c5487bcb2928f8cf5d75aae210b",
+      "version": "1.1",
+      "filename": "display.tar.gz"
+    },
+    "renderer_dfrdrm.py": {
+      "url": "https://raw.githubusercontent.com/moerdowo/MacLinux-Touchbar/ac4d4157a3568593539a2fcca242dcae7f829e0e/dfrdrm.py",
+      "sha256": "e2e7cf8104ff863d7b3dc002ee0c46bfd2a8c952575772133f7603df2164a5ec",
+      "filename": "dfrdrm.py"
+    },
+    "renderer_LICENSE": {
+      "url": "https://raw.githubusercontent.com/moerdowo/MacLinux-Touchbar/ac4d4157a3568593539a2fcca242dcae7f829e0e/LICENSE",
+      "sha256": "561207495136299ce03cba931027a881a0a1869890f0da99b52c26c56e23be14",
+      "filename": "LICENSE"
+    }
+  }
+}

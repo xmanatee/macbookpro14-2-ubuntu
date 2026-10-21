@@ -1,0 +1,17 @@
+.private/
+.work/
+__pycache__/
+*.pyc
+.DS_Store
+*.img
+*.img.gz
+*.qcow2
+*.raw
+*.key
+*.pem
+*.nmconnection
+*.log
+profile.json
+combined.memboot
+FDRData
+version.plist

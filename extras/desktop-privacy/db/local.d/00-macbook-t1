@@ -1,0 +1,12 @@
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-type='nothing'
+
+[org/gnome/system/location]
+enabled=false
+
+[org/gnome/desktop/privacy]
+report-technical-problems=false
+send-software-usage-stats=false
+remember-app-usage=false
+remember-recent-files=false

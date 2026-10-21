@@ -1,0 +1,2 @@
+# Use Intel's 23 W TDP-down profile with a 28 W burst for the unattended server.
+ACTION=="add|change", SUBSYSTEM=="powercap", KERNEL=="intel-rapl:0", ATTR{name}=="package-0", ATTR{constraint_0_name}=="long_term", ATTR{constraint_1_name}=="short_term", ATTR{constraint_0_power_limit_uw}="23000000", ATTR{constraint_1_power_limit_uw}="28000000"
